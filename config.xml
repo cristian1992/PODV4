@@ -10,8 +10,7 @@
   <content src="index.html"/>
   <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <plugin name="cordova-plugin-camera" spec="1" />
-
-
+    
          <plugin name="cordova-plugin-file-transfer" spec="~1.6.1" source="npm"/>
   <access origin="*"/>
   <access uri="*" subdomains="true" />
