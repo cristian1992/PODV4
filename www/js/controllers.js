@@ -157,6 +157,7 @@ angular.module('starter.controllers', ['ngCordova'])
 		var contra = pass;
     alert(usuario);
 
+
 		$http({
         method: 'POST',
         url: "http://netzasonepar.systemlog.cl/webservices/login.php",
@@ -169,6 +170,7 @@ angular.module('starter.controllers', ['ngCordova'])
         } // set the headers so angular passing info as form data (not request payload)
       })
 		.success(function(data) {
+      alert(data);
       $ionicLoading.hide();
 
       if (data=="") {
