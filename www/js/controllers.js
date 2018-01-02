@@ -170,6 +170,7 @@ angular.module('starter.controllers', ['ngCordova'])
         } // set the headers so angular passing info as form data (not request payload)
       })
 		.success(function(data) {
+      alert("2");
       alert(data);
       $ionicLoading.hide();
 
@@ -180,6 +181,7 @@ angular.module('starter.controllers', ['ngCordova'])
         });
 
       }else {
+        alert("3")
 			var datosAct = data;
 			console.log(data);
   			window.localStorage.setItem('id_usuarios', datosAct[0]['id_usuarios'] );
