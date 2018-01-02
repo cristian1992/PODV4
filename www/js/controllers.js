@@ -155,6 +155,7 @@ angular.module('starter.controllers', ['ngCordova'])
     })
 		var usuario = user;
 		var contra = pass;
+    alert(usuario);
 
 		$http({
         method: 'POST',
