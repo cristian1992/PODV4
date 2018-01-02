@@ -181,7 +181,7 @@ angular.module('starter.controllers', ['ngCordova'])
         });
 
       }else {
-        alert("3")
+        alert("3");
 			var datosAct = data;
 			console.log(data);
   			window.localStorage.setItem('id_usuarios', datosAct[0]['id_usuarios'] );
