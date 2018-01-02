@@ -13,6 +13,7 @@
     
          <plugin name="cordova-plugin-file-transfer" spec="~1.6.1" source="npm"/>
   <access origin="*"/>
+  <allow-navigation href="http://netzasonepar.systemlog.cl/*" />
 
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
