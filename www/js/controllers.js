@@ -150,9 +150,8 @@ angular.module('starter.controllers', ['ngCordova'])
     ionicMaterialInk.displayEffect();
 
 	$scope.verificar = function(user,pass){
-    $ionicLoading.show({
-      template: 'Cargando...'
-    })
+ 
+
 		var usuario = user;
 		var contra = pass;
     alert(usuario);
